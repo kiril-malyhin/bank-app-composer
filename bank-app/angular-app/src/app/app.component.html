@@ -15,35 +15,35 @@
     <div class="container-fluid">
       <div class="navbar-header">
         <p class="network-name">bank-app@0.0.1.bna</p>
-        <p class="navbar-brand">angular-app</p>
+        <p class="navbar-brand">Bank transactions TBCH</p>
       </div>
       <ul class="nav navbar-nav">
         <li class="dropdown active">
             <a class="dropdown-toggle" data-toggle="dropdown">Assets</a>
             <ul class="dropdown-menu scrollable-menu">
-              
+
               <li><a [routerLink]="['/Account']">Account</a></li>
-              
+
             </ul>
         </li>
         <li class="dropdown active">
           <a class="dropdown-toggle" data-toggle="dropdown">Participants</a>
           <ul class="dropdown-menu scrollable-menu">
-            
+
             <li><a [routerLink]="['/Customer']">Customer</a></li>
-            
+
           </ul>
       </li>
       <li class="dropdown active">
         <a class="dropdown-toggle" data-toggle="dropdown">Transactions</a>
         <ul class="dropdown-menu scrollable-menu">
-          
+
           <li><a [routerLink]="['/AccountTransfer']">AccountTransfer</a></li>
-          
+
         </ul>
     </li>
       </ul>
     </div>
   </nav>
-  
+
   <router-outlet></router-outlet>
